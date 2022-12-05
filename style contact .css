@@ -1,0 +1,132 @@
+body{
+	background: linear-gradient(rgba(109, 175, 216,.9), rgba(25, 131, 195,.9)), url(images/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+}
+
+.b3
+    { 
+        background-color: rgb(191, 191, 248);
+    }
+    nav ul li:hover
+    {
+    color: rgb(68, 68, 71);
+    background-color: rgb(140, 177, 245);
+    }
+.b2{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    border-bottom: solid rgb(109, 175, 216) 1px;
+    padding-bottom: 5px;
+    color: #73a9ca;
+    }
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        margin: 8px;
+     }
+    nav a{
+    font-size: 1.3em; 
+    color: rgb(25, 131, 195);
+    text-decoration: none;
+    padding: 30px 50px;
+    font-family: sans-serif;
+    font-weight: 600;}
+    .logo img { 
+    margin-top: -12px;
+    }
+    nav ul li {
+        display: inline-block;
+        padding: 20px 40px;
+        margin-right: 10px;
+        transition: 500ms ease-in-out;
+        border-radius: 50px; 
+    }
+
+
+input:hover{
+    background-color: #086377;
+    color: white;
+    transition: 500ms;
+    outline-color: #00030c;
+}
+input:hover::placeholder{
+    color: white;
+    transition: 50ms;
+}
+input:focus{
+    background-color: #086377;
+    outline-color: #086377;
+}
+
+section{
+    width: 100vw;
+    height: 80.625vh;
+}
+
+section h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    margin: 10px 30px;
+    padding: 20px;
+    background-color: rgba(25, 39, 48, 0.2);
+}
+
+td div{
+    background-color: white;
+    padding: 10px;
+}
+
+section p{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+input,textarea,button{
+	border:1px solid black;
+	padding-right: 60px;
+    margin-left: 0;
+	font-size: 0.8em;
+	font-family: 'Advent Pro', sans-serif;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: solid 2px;
+}
+
+input{
+    padding: 10px 14px;
+    padding-right: 150px;
+}
+
+textarea
+{
+	height: 120px;
+    text-align: left;
+}
+button
+{
+	font-size: 1em;
+	background-color: #086377;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+button:hover {
+background-color: black;
+color: #086377;
+cursor: pointer;
+transition: 500ms ease-in-out;
+}

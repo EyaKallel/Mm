@@ -1,0 +1,150 @@
+
+body{
+   background: url(images/bleupastel.jpg);
+   background-size: 100% 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   margin: auto;
+   animation: fade 1s;
+ }
+
+ @keyframes fade{
+    0%{opacity: 0;}
+    100%{opacity: 100;}
+ }
+
+.b2{
+    display: flex;
+    align-items: center;
+    background: white;
+    margin-top: -10px;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 8px;
+ }
+nav a{
+font-size: 1.3em; 
+color: #1983c3;
+text-decoration: none;
+padding: 30px 50px;
+font-family: sans-serif;
+font-weight: 600;}
+.logo img { 
+margin-top: -10px;
+}
+nav ul li {
+    display: inline-block;
+    padding: 20px 40px;
+    margin-right: 10px;
+    transition: 500ms ease-in-out;
+    border-radius: 50px; 
+}
+nav ul li:hover
+    {
+    color: rgb(68, 68, 71);
+    background-color: rgb(140, 177, 245);}
+
+    .nav{
+        text-align:right ;
+        text-transform: uppercase;
+        padding-bottom: 18px;
+    }
+    
+    
+    .f
+        {
+            font-size: 40px;
+            font-style: italic;
+            font-family:Arial, Helvetica, sans-serif ;
+            font-weight: bold;
+            color: rgb(128, 190, 201);
+            margin-top: -1700px;
+            padding: 10px;
+        
+        }
+        .gel{
+            text-align: center;
+            font-size: 40px;
+            font-family: arial ;
+            font-weight: bold;
+            text-decoration: blink;
+            color: rgb(43, 137, 153);
+            padding-bottom: 80px;
+          padding-top: 80px;
+        margin-right:60px ;
+        border-bottom: 20px;
+        
+        
+    }
+    
+    .k{
+    
+            font-size: 14px;
+            font-style: normal;
+            font-family: arial;
+            text-decoration: blink;
+            color: black;
+            line-height: 28px;
+            margin-top: -10px;
+    }
+    .vid{
+        padding-bottom: 200px;
+        margin-right:60px ;
+        margin-bottom: 20px;
+        margin-top: 100px;
+    
+    }
+
+    .tbl
+    {
+        border-collapse: collapse;
+        border-spacing: 20px;
+        left: 10px;
+    }
+
+
+    .tbl td{
+        border: solid rgb(43, 137, 153);
+        text-align: center;
+    }
+
+    .tbl img{
+        border: solid rgb(43, 137, 153);
+        margin: -3px;
+    }
+
+    .tbl p{
+        border: solid rgb(43, 137, 153);
+        margin: -3px;
+    }
+
+    .prix{
+        background-color: rgb(117, 173, 180);
+        font-weight: 1000;
+        animation: prix 3s infinite;
+    }
+
+    div ul{
+        display: flex ;
+        list-style-type: none;
+        
+    }   
+    div li{
+        margin-right: 10px;    
+    }
+
+    button{
+        animation: prix 3s infinite;
+        font-weight: 600;
+    }
+
+    @keyframes prix{
+        0%{color: black;}
+        50%{color: rgb(43, 137, 153);}
+        100%{color: black;}
+    }

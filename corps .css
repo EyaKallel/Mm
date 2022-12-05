@@ -1,0 +1,69 @@
+.k{
+    
+    font-size: 14px;
+    font-style: normal;
+    font-family: arial;
+    text-decoration: blink;
+    color: black;
+    line-height: 28px;
+    margin-top: -10px;
+}
+.vid{
+padding-bottom: 200px;
+    margin-right:60px ;
+margin-bottom: 20px;
+margin-top: -10px;
+
+}
+
+.tbl
+{
+border-collapse: collapse;
+border-spacing: 20px;
+}
+
+
+.tbl td{
+border: solid rgb(43, 137, 153);
+text-align: center;
+}
+
+.tbl img{
+border: solid rgb(43, 137, 153);
+margin: -3px;
+}
+
+.tbl p{
+border: solid rgb(43, 137, 153);
+margin: -3px;
+}
+
+.prix{
+background-color: rgb(117, 173, 180);
+font-weight: 1000;
+animation: prix 3s infinite;
+}
+
+div ul{
+display: flex ;
+list-style-type: none;
+
+}   
+div li{
+margin-right: 10px;    
+}
+
+button{
+animation: prix 3s infinite;
+font-weight: 600;
+}
+
+@keyframes prix{
+0%{color: black;}
+50%{color: rgb(43, 137, 153);}
+100%{color: black;}
+}
+
+.tbl .img:hover {
+transform: scale(1.1);
+}
